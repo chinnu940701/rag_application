@@ -1,0 +1,11 @@
+prefix=/home/sukumari/Rohith-s-Chatbot-RAG-/Fst2/venv
+exec_prefix=/home/sukumari/Rohith-s-Chatbot-RAG-/Fst2/venv
+libdir=/home/sukumari/Rohith-s-Chatbot-RAG-/Fst2/venv/lib
+includedir=/home/sukumari/Rohith-s-Chatbot-RAG-/Fst2/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
